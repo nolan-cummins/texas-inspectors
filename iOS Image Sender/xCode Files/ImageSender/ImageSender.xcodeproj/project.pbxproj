@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F77D14342D9D029C00AA1BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77D141B2D9D029A00AA1BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77D14222D9D029A00AA1BFB;
+			remoteInfo = ImageSender;
+		};
+		F77D143E2D9D029C00AA1BFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F77D141B2D9D029A00AA1BFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F77D14222D9D029A00AA1BFB;
+			remoteInfo = ImageSender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F77D14232D9D029A00AA1BFB /* ImageSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77D14332D9D029C00AA1BFB /* ImageSenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77D143D2D9D029C00AA1BFB /* ImageSenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		F79DB55E2D9D0CF50083F82A /* Exceptions for "ImageSender" folder in "ImageSender" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = F77D14222D9D029A00AA1BFB /* ImageSender */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F77D14252D9D029A00AA1BFB /* ImageSender */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				F79DB55E2D9D0CF50083F82A /* Exceptions for "ImageSender" folder in "ImageSender" target */,
+			);
+			path = ImageSender;
+			sourceTree = "<group>";
+		};
+		F77D14362D9D029C00AA1BFB /* ImageSenderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageSenderTests;
+			sourceTree = "<group>";
+		};
+		F77D14402D9D029C00AA1BFB /* ImageSenderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImageSenderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F77D14202D9D029A00AA1BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D14302D9D029C00AA1BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D143A2D9D029C00AA1BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F77D141A2D9D029A00AA1BFB = {
+			isa = PBXGroup;
+			children = (
+				F77D14252D9D029A00AA1BFB /* ImageSender */,
+				F77D14362D9D029C00AA1BFB /* ImageSenderTests */,
+				F77D14402D9D029C00AA1BFB /* ImageSenderUITests */,
+				F77D14242D9D029A00AA1BFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F77D14242D9D029A00AA1BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F77D14232D9D029A00AA1BFB /* ImageSender.app */,
+				F77D14332D9D029C00AA1BFB /* ImageSenderTests.xctest */,
+				F77D143D2D9D029C00AA1BFB /* ImageSenderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F77D14222D9D029A00AA1BFB /* ImageSender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77D14472D9D029C00AA1BFB /* Build configuration list for PBXNativeTarget "ImageSender" */;
+			buildPhases = (
+				F77D141F2D9D029A00AA1BFB /* Sources */,
+				F77D14202D9D029A00AA1BFB /* Frameworks */,
+				F77D14212D9D029A00AA1BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F77D14252D9D029A00AA1BFB /* ImageSender */,
+			);
+			name = ImageSender;
+			packageProductDependencies = (
+			);
+			productName = ImageSender;
+			productReference = F77D14232D9D029A00AA1BFB /* ImageSender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F77D14322D9D029C00AA1BFB /* ImageSenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77D144A2D9D029C00AA1BFB /* Build configuration list for PBXNativeTarget "ImageSenderTests" */;
+			buildPhases = (
+				F77D142F2D9D029C00AA1BFB /* Sources */,
+				F77D14302D9D029C00AA1BFB /* Frameworks */,
+				F77D14312D9D029C00AA1BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77D14352D9D029C00AA1BFB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F77D14362D9D029C00AA1BFB /* ImageSenderTests */,
+			);
+			name = ImageSenderTests;
+			packageProductDependencies = (
+			);
+			productName = ImageSenderTests;
+			productReference = F77D14332D9D029C00AA1BFB /* ImageSenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F77D143C2D9D029C00AA1BFB /* ImageSenderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F77D144D2D9D029C00AA1BFB /* Build configuration list for PBXNativeTarget "ImageSenderUITests" */;
+			buildPhases = (
+				F77D14392D9D029C00AA1BFB /* Sources */,
+				F77D143A2D9D029C00AA1BFB /* Frameworks */,
+				F77D143B2D9D029C00AA1BFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77D143F2D9D029C00AA1BFB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F77D14402D9D029C00AA1BFB /* ImageSenderUITests */,
+			);
+			name = ImageSenderUITests;
+			packageProductDependencies = (
+			);
+			productName = ImageSenderUITests;
+			productReference = F77D143D2D9D029C00AA1BFB /* ImageSenderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F77D141B2D9D029A00AA1BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F77D14222D9D029A00AA1BFB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					F77D14322D9D029C00AA1BFB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F77D14222D9D029A00AA1BFB;
+					};
+					F77D143C2D9D029C00AA1BFB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = F77D14222D9D029A00AA1BFB;
+					};
+				};
+			};
+			buildConfigurationList = F77D141E2D9D029A00AA1BFB /* Build configuration list for PBXProject "ImageSender" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F77D141A2D9D029A00AA1BFB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F77D14242D9D029A00AA1BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F77D14222D9D029A00AA1BFB /* ImageSender */,
+				F77D14322D9D029C00AA1BFB /* ImageSenderTests */,
+				F77D143C2D9D029C00AA1BFB /* ImageSenderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F77D14212D9D029A00AA1BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D14312D9D029C00AA1BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D143B2D9D029C00AA1BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F77D141F2D9D029A00AA1BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D142F2D9D029C00AA1BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F77D14392D9D029C00AA1BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F77D14352D9D029C00AA1BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77D14222D9D029A00AA1BFB /* ImageSender */;
+			targetProxy = F77D14342D9D029C00AA1BFB /* PBXContainerItemProxy */;
+		};
+		F77D143F2D9D029C00AA1BFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F77D14222D9D029A00AA1BFB /* ImageSender */;
+			targetProxy = F77D143E2D9D029C00AA1BFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F77D14452D9D029C00AA1BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F77D14462D9D029C00AA1BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F77D14482D9D029C00AA1BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageSender/Preview Content\"";
+				DEVELOPMENT_TEAM = D4KP77TLF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageSender/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sandiateam.ImageSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F77D14492D9D029C00AA1BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageSender/Preview Content\"";
+				DEVELOPMENT_TEAM = D4KP77TLF4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ImageSender/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sandiateam.ImageSender;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F77D144B2D9D029C00AA1BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sandiateam.ImageSenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageSender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageSender";
+			};
+			name = Debug;
+		};
+		F77D144C2D9D029C00AA1BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sandiateam.ImageSenderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageSender.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageSender";
+			};
+			name = Release;
+		};
+		F77D144E2D9D029C00AA1BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sandiateam.ImageSenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageSender;
+			};
+			name = Debug;
+		};
+		F77D144F2D9D029C00AA1BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sandiateam.ImageSenderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageSender;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F77D141E2D9D029A00AA1BFB /* Build configuration list for PBXProject "ImageSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77D14452D9D029C00AA1BFB /* Debug */,
+				F77D14462D9D029C00AA1BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77D14472D9D029C00AA1BFB /* Build configuration list for PBXNativeTarget "ImageSender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77D14482D9D029C00AA1BFB /* Debug */,
+				F77D14492D9D029C00AA1BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77D144A2D9D029C00AA1BFB /* Build configuration list for PBXNativeTarget "ImageSenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77D144B2D9D029C00AA1BFB /* Debug */,
+				F77D144C2D9D029C00AA1BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F77D144D2D9D029C00AA1BFB /* Build configuration list for PBXNativeTarget "ImageSenderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F77D144E2D9D029C00AA1BFB /* Debug */,
+				F77D144F2D9D029C00AA1BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F77D141B2D9D029A00AA1BFB /* Project object */;
+}
